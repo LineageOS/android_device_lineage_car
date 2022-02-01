@@ -10,10 +10,4 @@ BOARD_SEPOLICY_DIRS += device/generic/car/common/sepolicy
 
 # Whitelisted packages per user type
 PRODUCT_COPY_FILES += \
-  device/generic/car/common/preinstalled-packages-product-car-emulator.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-product-car-emulator.xml
-
-# Multi-user properties
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES := \
-    android.car.number_pre_created_users=1 \
-    android.car.number_pre_created_guests=1 \
-    android.car.user_hal_enabled=true
+    device/generic/car/common/preinstalled-packages-product-car-emulator.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-product-car-emulator.xml
