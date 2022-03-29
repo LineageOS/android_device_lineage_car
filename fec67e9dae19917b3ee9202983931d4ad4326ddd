@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e2614cc_4dd27a15",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29072
+      },
+      "writtenOn": "2022-03-29T08:24:53Z",
+      "side": 1,
+      "message": "Approving based on your knowledge of the domain and this doesn\u0027t look like it breaks anything.\n\nI am slightly curious though, I would have thought we wanted this to be true because, when false, it disables the AVRCP target profile (https://android.googlesource.com/platform/packages/apps/Bluetooth/+/4710db7d2aa6142d91b1d0f2b06f589519899db0/src/com/android/bluetooth/avrcp/AvrcpTargetService.java#163)",
+      "revId": "fec67e9dae19917b3ee9202983931d4ad4326ddd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
