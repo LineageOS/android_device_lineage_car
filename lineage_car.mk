@@ -18,5 +18,7 @@ PRODUCT_COPY_FILES += \
     device/google/cuttlefish/shared/auto/preinstalled-packages-product-car-cuttlefish.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-product-car-cuttlefish.xml
 
 # Workarounds
+## CarServiceHelperService accesses the hidden api in the system server.
+SYSTEM_OPTIMIZE_JAVA := false
 ## Do not enforce artifact path requirements
 PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := false
