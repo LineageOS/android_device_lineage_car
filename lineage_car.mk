@@ -1,3 +1,5 @@
+$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_default.mk)
+
 PRODUCT_PACKAGE_OVERLAYS += \
     device/lineage/car/overlay \
 
