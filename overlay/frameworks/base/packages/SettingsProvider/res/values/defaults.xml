@@ -3,5 +3,4 @@
     <bool name="def_device_provisioned">true</bool>
     <bool name="def_user_setup_complete">true</bool>
     <bool name="def_wifi_on">true</bool>
-    <bool name="def_accelerometer_rotation">true</bool>
 </resources>
