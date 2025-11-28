@@ -1,6 +1,6 @@
 PRODUCT_PACKAGES += \
-    android.hardware.automotive.vehicle@2.0-default-service \
-    android.hardware.automotive.audiocontrol-service.example
+    android.hardware.automotive.audiocontrol-service.example \
+    android.hardware.automotive.vehicle@V4-default-service
 
 PRODUCT_COPY_FILES += \
     packages/services/Car/car_product/init/init.bootstat.rc:root/init.bootstat.rc \
