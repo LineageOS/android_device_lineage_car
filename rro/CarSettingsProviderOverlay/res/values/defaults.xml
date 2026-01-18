@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
 <resources>
     <bool name="def_device_provisioned">true</bool>
     <bool name="def_user_setup_complete">true</bool>

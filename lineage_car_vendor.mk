@@ -1,3 +1,8 @@
+#
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
 PRODUCT_PACKAGES += \
     android.hardware.automotive.audiocontrol-service.example \
     android.hardware.automotive.vehicle@V4-default-service
