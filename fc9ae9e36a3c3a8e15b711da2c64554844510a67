@@ -16,6 +16,24 @@
       "message": "This is becoming confusing. Devices are doing this:\n\n\u003e  $(call inherit-product, packages/services/Car/car_product/build/car.mk)\n\nand then the rest is here?",
       "revId": "fc9ae9e36a3c3a8e15b711da2c64554844510a67",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "13b5e75a_7cb18613",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2026-01-30T18:37:29Z",
+      "side": 1,
+      "message": "Nope, I tried to boot that and logcat explicitly told something is missing which is only defined on those product makefiles, and the UI is broken like hell.",
+      "parentUuid": "49c45898_a98ec1b6",
+      "revId": "fc9ae9e36a3c3a8e15b711da2c64554844510a67",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
