@@ -8,7 +8,7 @@ PRODUCT_PACKAGES += \
     android.hardware.automotive.vehicle@V4-default-service
 
 # Additional selinux policy
-BOARD_SEPOLICY_DIRS += device/generic/car/common/sepolicy
+BOARD_SEPOLICY_DIRS += device/google_car/common/sepolicy
 
 # Whitelisted packages per user type
 PRODUCT_COPY_FILES += \
