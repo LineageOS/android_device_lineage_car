@@ -7,9 +7,6 @@ PRODUCT_PACKAGES += \
     android.hardware.automotive.audiocontrol-service.example \
     android.hardware.automotive.vehicle@V4-default-service
 
-PRODUCT_COPY_FILES += \
-    packages/services/Car/car_product/init/init.bootstat.rc:root/init.bootstat.rc \
-
 # Additional selinux policy
 BOARD_SEPOLICY_DIRS += device/generic/car/common/sepolicy
 
