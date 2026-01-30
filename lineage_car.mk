@@ -20,3 +20,6 @@ PRODUCT_COPY_FILES += \
 # Workarounds
 ## CarServiceHelperService accesses the hidden api in the system server.
 SYSTEM_OPTIMIZE_JAVA := false
+## FIXME: generic_system.mk sets 'PRODUCT_ENFORCE_RRO_TARGETS := *'
+##        but this breaks phone_car. So undo it here.
+PRODUCT_ENFORCE_RRO_TARGETS := frameworks-res
