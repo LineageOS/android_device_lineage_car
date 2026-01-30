@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49c45898_a98ec1b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-30T18:22:36Z",
+      "side": 1,
+      "message": "This is becoming confusing. Devices are doing this:\n\n\u003e  $(call inherit-product, packages/services/Car/car_product/build/car.mk)\n\nand then the rest is here?",
+      "revId": "fc9ae9e36a3c3a8e15b711da2c64554844510a67",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
