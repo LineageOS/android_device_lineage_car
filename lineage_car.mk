@@ -3,6 +3,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Inherit from AOSP Car product makefiles
+$(call inherit-product, packages/services/Car/car_product/build/car_generic_system.mk)
+$(call inherit-product, packages/services/Car/car_product/build/car_system_ext.mk)
+$(call inherit-product, packages/services/Car/car_product/build/car_product.mk)
+
 # Overlays
 PRODUCT_PACKAGES += \
     CarServiceOverlay \
