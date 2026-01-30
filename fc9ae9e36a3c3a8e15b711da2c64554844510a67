@@ -52,6 +52,24 @@
       "parentUuid": "13b5e75a_7cb18613",
       "revId": "fc9ae9e36a3c3a8e15b711da2c64554844510a67",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6eb65b5d_70d964a4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2026-01-30T18:42:59Z",
+      "side": 1,
+      "message": "All the other ATV targets would need that transition too, otherwise it\u0027ll result in build error",
+      "parentUuid": "bd1a8ca9_4416f9b2",
+      "revId": "fc9ae9e36a3c3a8e15b711da2c64554844510a67",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
